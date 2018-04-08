@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+#col{
+	margin-left: 350px;
+	margin-right: 450px;
+	margin-top: 200px;
+	margin-bottom: 150px;
+	box-shadow: 2px 2px 2px 0px #d3d3d3,-2px 2px 2px 0px #d3d3d3,2px -2px 2px 0px #d3d3d3,-2px -2px 2px 0px #d3d3d3;
+}
+
+#header{
+	background-color: #1C7DA0;
+	height: 90px;
+	border-bottom: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+
+/*Links in the form header*/
+#home,#about,#contactus{
+	background-color: #1c7da0;
+	border: none;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	padding: 15px;
+	cursor: pointer;
+}
+
+#home:hover,#about:hover,#contactus:hover{transform: translateY(-1px);}
+
+/*Align all fields in astraight line*/
+#l1,#l2,#l4,#l5,#l6,#r3{margin-left: 120px;}
+
+#r1,#r2,#r4,#r5,#r6{margin-left: 150px;}
+
+#l1{margin-right: 40px;}
+
+#l2{margin-right: 45px;}
+
+#l5{margin-right: 55px;}
+
+#l6{margin-right: 30px;}
+
+#r2{margin-right: 25px;}
+
+#r4{margin-right: 15px;}
+
+#r5{margin-right: 30px;}
+
+#fn{margin-left: 800px}
+
+#submit{margin-left: 40px;}
+
+.row{margin-bottom: 40px;}
+
+
+#mal{
+	cursor: pointer;
+}
+
+#fem{
+	margin-left: 184.5px;
+	cursor: pointer;
+}
+
+/*Material design like bottom sided border and uniform width for all text fields*/
+textarea{
+	border: none;
+	border-bottom: 1px solid #1c7da0;
+	resize: none;
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 30px;
+	width: 250px;
+}
+
+/*Design for the buttons*/
+#cnc,#submit{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 20px;
+	background-color: #1c7da0;
+	border: none;
+	box-shadow: 0px 2px 1px 0px #757575;
+	cursor: pointer;
+}
+
+/*Button press behaviour*/
+#cnc:active,#submit:active{
+	transform: translateY(2px);
+}
+
